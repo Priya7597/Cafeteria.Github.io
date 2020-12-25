@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<meta name ="viewport" content="width=device-width, initial-scale =1">
+<title> CafeTemplate </title>
+<style>
+html{-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%
+
+}
+/*body design*/
+body{font-family:monospace ;
+margin:0;
+height:100%;
+box-sizing:border-box;
+background-color:#fdf5e6;
+} 
+
+
+.backimg {
+background-position:center ;
+ background-size:cover ;
+min-height:75%;
+}
+
+/*header/logo/title*/
+.header{padding:60px;
+text-align :center ;
+background-color :brown;
+color:white ;
+}
+.header1{padding:60px;
+text-align :center ;
+background-color :pink;
+color:white ;
+}
+.header2{padding:60px;
+padding-top:10px;
+background-color :skyblue;
+color:white ;
+}
+.header3{padding:5px;
+text-align :center ;
+background-color :darkgray;
+color:black ;
+}
+
+.header4{padding:30px;
+text-align :center ;
+background-color :pink;
+color:white ;
+font-size :28px;
+}
+
+
+/*navbar*/
+.navbar{display:flex;
+background-color:black;
+position: fixed ;
+}
+
+/*navbar links*/
+.navbar a{
+    color:white;
+padding:5px 15px;
+text-decoration:none;
+ transition :0.6s ease;
+} 
+
+/*navbar hover*/
+.navbar a:hover{
+background-color:darkgray;
+ color:white;
+}
+
+/* h5 styling */
+h5 {font-size:18px;
+ color:white ;
+ background-color:black;
+ text-align :center ;
+font-weight:400;
+ padding-left:8px;
+ padding-right:8px;
+ padding-top:8px;
+ padding-bottom:8px;
+}
+
+p {padding:0.01em 16px;} 
+
+.content1 { margin-top:16px;
+margin-bottom :16px;
+margin-left:auto;
+margin-right:auto;
+border-left:6px solid #ccc;
+background-color :#f1f1f1; 
+}
+
+.img1{width: 100%;
+max-width:100%;
+height:auto;
+margin-top:16px;
+}
+
+.menulist{padding :8px 16px; ;
+box-shadow :0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 1px 0 rgba(0,0,0,0.12);
+display:flex;
+flex-wrap :wrap ;
+justify-content:flex-start;
+width:auto;
+}
+
+.cont{max-width:700px;
+margin-left:auto;
+margin-right:auto;
+padding:0.01em 16px;
+}
+/*
+.eatlist{ padding:8px 16px;
+ box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+ padding-top:48px;
+}*/
+
+.tag1{background-color:black;
+    color:white ;
+    display :inline-block ;
+    padding-right :8px;
+    padding-left :18px;
+    text-align :center ;
+}
+
+.pink{font-size:18px;
+font-family:cursive;
+
+}
+.w3-button{
+    -webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+}
+.w3-button{vertical-align:middle;
+overflow :hidden;
+background-color :black ;
+color :white;
+border:none ;
+display:inline-block ;
+ margin:0;
+ padding :8px 16px;
+}
+
+.booking{border: 1px solid black;
+padding-top :16px;
+padding-bottom :16px;
+font:inherit;
+margin:0;
+overflow:visible;
+}
+
+</style>
+</head>
+<body>
+ <div class="navbar">
+ <a href="#Home">Home</a>
+ <a href="#About">About</a>
+ <a href="#menu">Menu</a>
+ <a href="#Where">Where</a>
+<a href="#reserve">Reserve</a>
+ </div>
+<div class="header" id="Home">
+<h1 style="font-family:cursive;
+ font-size:35px;">
+the F.R.I.E.N.D.S. </h1> <p><b>15 Adr Street,5015,NY</b></p>
+</div>
+<div class="cont" id="About">
+<h5>ABOUT the CAfE</h5>
+<p>The CAFE was founded in 1977. Thbav gzkx hzg ssc ccccs Acc xcc fdcc xcd swed dddfjs adg aaa ssh sgak akahs awoke janb sajg shhsh sjwhvw auwu ww was ack lghu ohh jhbg cc bnn cr uysg dda rtq fysbf avsb qbba Abba bab</p>
+<P>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+<p>laborisnisi ut aliquip ex ea commodo consequat. gh hhgk jkkh ljg fddx sass drfg uiuui oojhd rfw ss xcc bbbb hjj re ds FDD sass xzzz </p>
+</div>
+<div class="content1">
+<p><i><br>Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+
+<p>Chef, Coffeeist and Owner: Liam Brown</p><br></div>
+<img src="imgg.jpeg" class="img1">
+<!-- <div class="header1"><p>image
+</p></div>-->
+<div class="content1">
+<p><strong>Opening hrs:</strong> everyday from 6AM to 7PM</p>
+<p><strong>Address:</strong> 15 Adr Street,5015,NY</p><br>
+</div>
+<div class="cont" id="menu">
+<h5>THE MENU</h5>
+
+<div class="menulist">
+
+<div><span class="tag1">Eat</span> </div>
+<div 
+class="eatlist" >
+ <h4>Bread Basket </h4>
+<p style="color:gray">Fresh baked Bread @ $5 each</p>
+<br>
+<h4>Bread Basket</h4>
+<p style="color:gray">Fresh baked Bread @ $5 each</p>
+<br>
+<h4>Bread </h4>
+<p style="color:gray">Fresh baked Bread @ $5 each</p>
+<br>
+ <h4>Basket</h4>
+<p style="color:gray">Fresh baked Bread @ $5 each</p>
+<br>
+<h4>Bread Bvacv</h4>
+<p style="color:gray">Fresh baked Bread @ $5 each</p>
+<br>
+</div>
+</div>
+<div class="menulist">
+<div><span class="tag1">Drinks</span> </div>
+<div  class="eatlist">
+<h4>Coffee</h4>
+<p style="color:gray">regular drinkable coffee @$10 each</p>
+ <h4>tea</h4>
+<p style="color:gray">regular drinkable coffee @$10 each</p>
+<h4>iced Coffee</h4>
+<p style="color:gray">regular drinkable coffee @$10 each</p>
+ <h4>bubble tea</h4>
+<p style="color:gray">regular drinkable coffee @$10 each</p>
+ <h4>bubble tea</h4>
+<p style="color:gray">regular drinkable coffee @$10 each</p>
+</div>
+
+
+
+</div>
+<div class="cont" id="Where">
+<h5>WHERE TO FIND US</h5>
+<p>find us this Blas Blas address  
+We are going to ghsjd this weekend and we will be happiest if this chanbaek unit happened 
+</p> 
+
+<!--<div class="header1"><p>image</p></div> -->
+<img src="imggfd.jpeg" class="img1">
+<p><span class="tag1">FYI</span>
+We are going to ghsjd this weekend and we will be happiest if this chanbaek unit happened  </p>
+<div class="header3">
+<p style="font-size:13px;">Home delivery?<br><b>Call US 📞: 95******7 </b></p> 
+</div>
+</div>
+<div class="cont" id="reserve">
+<h5>RESERVE NOW-<span class="pink" >way to go</span></h5>
+    
+<form action="/action_page.php"
+target="blank">
+    <p><input class="booking" type="text" placeholder="  Enter your name" required name="Name"></p>
+    <p><input class="booking" type="number" placeholder="   contact no." required name="contact"></p>
+    <p><input class="booking" type="number" placeholder="   total seats " required name="people"></p>
+     <p><input class="booking" type="datetime-local" placeholder="Date&time" required name="date"
+     value="2020-12-21T18:56"></p>
+<p><input class="booking" type="text" placeholder="special requirements" required name="message"></p>
+<p><button class="w3-button" type="submit"> SEND</button></p>
+</form>
+</div>
+<div class="header4">🌸🌼🌸</div>
+<div class="header2"><h1 style="font-family:cursive;
+ font-size:35px;"><b>THANK YOU FOR VISITING US</b>
+</h1>
+</div>
+
+<!--
+<script>
+
+
+ // Tabbed Menu
+ function openMenu(event, menuName) {
+ var i, x, tablinks;
+ x = document.getElementsByClassName("menu");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+ }
+tablinks = document.getElementsByClassName("tablink");
+ for (i = 0; i < x.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+}
+ document.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+ document.getElementById("myLink").click();
+ 
+ 
+</script>
+-->
+
+
+</body>
+</html>
+
+
+
