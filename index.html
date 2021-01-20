@@ -101,7 +101,7 @@ max-width:100%;
 height:auto;
 margin-top:16px;
 }
-
+/*
 .menulist{padding :8px 16px; ;
 box-shadow :0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 1px 0 rgba(0,0,0,0.12);
 display:flex;
@@ -109,7 +109,32 @@ flex-wrap :wrap ;
 justify-content:flex-start;
 width:auto;
 }
+*/
+ 
+.eatlist{height:100%;
+ width:50%;
+ z-index:1;
+ top:0;
+ overflow-x :hidden;
+ padding-top :20px ;
+ 
+} 
+.left{left:0;
+ background-color :#f1f1f1; 
 
+ }
+ 
+right{right:0;
+ background-color :#f1f1f1;
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 .cont{max-width:700px;
 margin-left:auto;
 margin-right:auto;
@@ -194,8 +219,8 @@ the F.R.I.E.N.D.S. </h1> <p><b>15 Adr Street,5015,NY</b></p>
 </div>
 <div class="cont" id="menu">
 <h5>THE MENU</h5>
-
-<div class="menulist">
+<div>
+<div class="eatlist left">
 
 <div><span class="tag1">Eat</span> </div>
 <div 
@@ -217,7 +242,7 @@ class="eatlist" >
 <br>
 </div>
 </div>
-<div class="menulist">
+<div class="eatlist right">
 <div><span class="tag1">Drinks</span> </div>
 <div  class="eatlist">
 <h4>Coffee</h4>
@@ -231,7 +256,7 @@ class="eatlist" >
  <h4>bubble tea</h4>
 <p style="color:gray">regular drinkable coffee @$10 each</p>
 </div>
-
+</div>
 
 
 </div>
